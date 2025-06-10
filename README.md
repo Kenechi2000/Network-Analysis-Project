@@ -85,6 +85,8 @@ Navigate to: http://127.0.0.1:8080
 Enter dummy credentials (i entered KeneGod, hackme)
 
 Observe POST request and Form Data in Wireshark
+![POST Request](screenshot/postrequest.png)
+![Form Data](screenshot/credentials.png)
 
 
 4. Test the API Endpoint
@@ -103,6 +105,7 @@ Capture and analyze the HTTP response packet in Wireshark
 Run the provided script:
 
 python login_script.py
+
 
 This sends a POST login using the Python requests module, allowing you to inspect:
 
