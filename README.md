@@ -3,9 +3,6 @@
 This project demonstrates how attackers can exploit insecure HTTP traffic to intercept sensitive data using tools like **Wireshark**. Since modern websites use HTTPS, this exercise simulates a vulnerable HTTP environment to study network traffic patterns, form submissions, and common security issues.
 
 
-![Flask Server](screenshots/Flask%20Server%20Running.png)
-
-
 ## Overview
 
 - Created a **local HTTP server** using Python and Flask to simulate a basic login page.
@@ -62,7 +59,7 @@ a. /: Login form ![Login Form](screenshots/Loginform.png)
 
 b. /login: POST handler for credentials ![POST handler](screenshots/POSThandler.png)
 
-c. /api/data: A mock API returning JSON data ![Mock API](screenshotS/mockAPI.png)
+c. /api/data: A mock API returning JSON data ![Mock API](screenshots/mockAPI.png)
 
 
 ### 2. Wireshark Traffic Capture
