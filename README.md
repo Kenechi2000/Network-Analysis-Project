@@ -34,7 +34,7 @@ http-traffic-analysis/
 ├── login_script.py        # Python script to send automated login POST request 
 ├── requirements.txt       # Flask & requests dependencies 
 ├── README.md              # Project documentation
-
+├── screenshots/
 ## How It Works
 
 ### 1. Start Local Server
