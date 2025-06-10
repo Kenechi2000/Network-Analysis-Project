@@ -2,7 +2,7 @@
 
 This project demonstrates how attackers can exploit insecure HTTP traffic to intercept sensitive data using tools like **Wireshark**. Since modern websites use HTTPS, this exercise simulates a vulnerable HTTP environment to study network traffic patterns, form submissions, and common security issues.
 
-![Flask Server](screenshots/Flask%20server%20running.png)
+![Flask Server](screenshots/Flask%20Server%20Running.png)
 
 ## Overview
 
@@ -38,7 +38,7 @@ http-traffic-analysis/
 ├── README.md              # Project documentation
 ├── screenshots/           # Screenshots used in the README
      ├── ![Flask Server](screenshots/Flask%20Server%20Running.png)
-     ├── ![Login Page](screenshots/Login%20form%20page.png)
+     ├── ![Login Page](screenshots/Login%20form%20page%20.png)
      ├── ![Wireshark Capture Form](screenshots/Wireshark%20capture%20showing%20form%20data.png)
      ├── ![Python Script Server](screenshots/Login%20script%20Server.png)
      ├── ![Login Script Execution](screenshots/Python%20script%20execution.png)
