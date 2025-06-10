@@ -84,8 +84,10 @@ Navigate to: http://127.0.0.1:8080
 
 Enter dummy credentials (i entered KeneGod, hackme)
 
+
 Observe POST request and Form Data in Wireshark
 ![POST Request](screenshots/postrequest.png)
+
 
 ![Form Data](screenshots/credentials.png)
 
