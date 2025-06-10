@@ -36,13 +36,6 @@ http-traffic-analysis/
 ├── requirements.txt       # Flask & requests dependencies 
 ├── README.md              # Project documentation
 ├── screenshots/           # Screenshots used in the README
-     ├── ![Flask Server](screenshots/Flask%20Server%20Running.png)
-     ├── ![Login Page](screenshots/Login%20form%20page%20.png)
-     ├── ![Wireshark Capture Form](screenshots/Wireshark%20capture%20showing%20form%20data.png)
-     ├── ![Python Script Server](screenshots/Login%20script%20Server.png)
-     ├── ![Login Script Execution](screenshots/Python%20script%20execution.png)
-     ├── ![Wireshark Capture API JSON](screenshots/Wireshark%20capture%20of%20API%20JSON%20response.png)
-     ├── ![Wireshark Capture User-Agent](screenshots/Wireshark%20User-Agent%20Header.png)
      
      
 ## How It Works
