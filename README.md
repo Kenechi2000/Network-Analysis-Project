@@ -39,7 +39,6 @@ http-traffic-analysis/
 ├── requirements.txt       # Flask & requests dependencies 
 ├── README.md              # Project documentation
 ├── screenshots/           # Screenshots used in the README
-
      ├── ![Flask Server](screenshots/Flask%20Server%20Running.png)
      ├── ![Login Page](screenshots/Login%20form%20page%20.png)
      ├── ![Wireshark Capture Form](screenshots/Wireshark%20capture%20showing%20form%20data.png)
@@ -81,6 +80,7 @@ Apply filter: http
 Open browser
 
 Navigate to: http://127.0.0.1:8080
+![Login Page](screenshots/Login%20form%20page%20.png)
 
 Enter dummy credentials (i entered KeneGod, hackme)
 
