@@ -73,6 +73,7 @@ Select the Loopback or Wi-Fi interface (depending on setup)
 Start capture
 
 Apply filter: http
+![Wireshark Capture Form](screenshots/Wireshark%20capture%20showing%20form%20data.png)
 
 
 ### 3. Submit Login Form
@@ -86,6 +87,7 @@ Enter dummy credentials (i entered KeneGod, hackme)
 
 
 Observe POST request and Form Data in Wireshark
+
 ![POST Request](screenshots/postrequest.png)
 
 
