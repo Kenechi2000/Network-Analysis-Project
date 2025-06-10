@@ -57,7 +57,7 @@ Launch the Flask app:
 python app.py
 This starts a local HTTP server at http://127.0.0.1:8080 serving:
 
-a. /: Login form ![Login Page](screenshots/Login%20Form%20Page.png)
+a. /: Login form ![Login Page](screenshots/Login%20form%20page%20.png)
 
 b. /login: POST handler for credentials
 
