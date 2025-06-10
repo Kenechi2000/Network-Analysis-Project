@@ -51,6 +51,7 @@ http-traffic-analysis/
 ## How It Works
 
 ### 1. Start Local Server
+![Flask Server](screenshots/Flask%20Server%20Running.png)
 
 Launch the Flask app:
 ''' bash
