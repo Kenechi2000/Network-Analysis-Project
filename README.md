@@ -62,7 +62,7 @@ a. /: Login form ![Login Form](screenshots/Loginform.png)
 
 b. /login: POST handler for credentials ![POST handler](screenshots/POSThandler.png)
 
-c. /api/data: A mock API returning JSON data ![Mock API](screenshots/MockAPIreturningJSONdata.png)
+c. /api/data: A mock API returning JSON data ![Mock API](screenshotS/mockAPI.png)
 
 
 ### 2. Wireshark Traffic Capture
