@@ -37,7 +37,7 @@ http-traffic-analysis/
 ├── requirements.txt       # Flask & requests dependencies 
 ├── README.md              # Project documentation
 ├── screenshots/           # Screenshots used in the README
-     ├── ![Flask Server](screenshots/Flask%20server%20running.png)
+     ├── ![Flask Server](screenshots/Flask%20Server%20Running.png)
      ├── ![Login Page](screenshots/Login%20form%20page.png)
      ├── ![Wireshark Capture Form](screenshots/Wireshark%20capture%20showing%20form%20data.png)
      ├── ![Python Script Server](screenshots/Login%20script%20Server.png)
