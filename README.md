@@ -117,7 +117,7 @@ User-Agent string (e.g., python-requests/2.x)
 Suspicious client behavior (non-browser)
 
 Form payloads from automation tools
-
+![Python Script Credentials](screenshots/Pythonscriptlogincredentials.png)
 
 🕵 Security Issues Identified
 
