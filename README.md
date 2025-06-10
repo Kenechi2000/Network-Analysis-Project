@@ -2,6 +2,8 @@
 
 This project demonstrates how attackers can exploit insecure HTTP traffic to intercept sensitive data using tools like **Wireshark**. Since modern websites use HTTPS, this exercise simulates a vulnerable HTTP environment to study network traffic patterns, form submissions, and common security issues.
 
+![Flask Server](screenshots/Flask%20server%20running.png)
+
 ## Overview
 
 - Created a **local HTTP server** using Python and Flask to simulate a basic login page.
@@ -9,9 +11,9 @@ This project demonstrates how attackers can exploit insecure HTTP traffic to int
 - Simulated a **public API endpoint** to observe how attackers can target exposed services.
 - Developed a **Python login script** to mimic automated client behavior (commonly used in recon and brute force attacks).
 - Identified security vulnerabilities such as:
-  - Credentials transmitted in clear text
-  - Unauthenticated API access
-  - Script-based requests (e.g., using `python-requests` User-Agent)
+- Credentials transmitted in clear text
+- Unauthenticated API access
+- Script-based requests (e.g., using `python-requests` User-Agent)
 
 ## Objectives
 
@@ -34,7 +36,15 @@ http-traffic-analysis/
 ├── login_script.py        # Python script to send automated login POST request 
 ├── requirements.txt       # Flask & requests dependencies 
 ├── README.md              # Project documentation
-├── screenshots/
+├── screenshots/           # Screenshots used in the README
+     ├── ![Flask Server](screenshots/Flask%20server%20running.png)
+     ├── ![Login Page](screenshots/Login%20form%20page.png)
+     ├── ![Wireshark Capture Form](screenshots/Wireshark%20capture%20showing%20form%20data.png)
+     ├── ![Python Script Server](screenshots/Login%20script%20Server.png)
+     ├── ![Login Script Execution](screenshots/Python%20script%20execution.png)
+     ├── ![Wireshark Capture API JSON](screenshots/Wireshark%20capture%20of%20API%20JSON%20response.png)
+     ├── ![Wireshark Capture User-Agent](screenshots/Wireshark%20User-Agent%20Header.png)
+     
 ## How It Works
 
 ### 1. Start Local Server
@@ -44,11 +54,11 @@ Launch the Flask app:
 python app.py
 This starts a local HTTP server at http://127.0.0.1:8080 serving:
 
-a. /: Login form
+a. /: Login form ![Login Page](screenshots/Login%20form%20page.png)
 
 b. /login: POST handler for credentials
 
-c. /api/data: A mock API returning JSON data
+c. /api/data: A mock API returning JSON data 
 
 
 2. Wireshark Traffic Capture
@@ -68,7 +78,7 @@ Open browser
 
 Navigate to: http://127.0.0.1:8080
 
-Enter dummy credentials (i entered kenechi, hackme)
+Enter dummy credentials (i entered KeneGod, hackme)
 
 Observe POST request and Form Data in Wireshark
 
