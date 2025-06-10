@@ -59,7 +59,7 @@ This starts a local HTTP server at http://127.0.0.1:8080 serving:
 
 a. /: Login form ![Login Page](screenshots/Login%20form%20page%20.png)
 
-b. /login: POST handler for credentials
+b. /login: POST handler for credentials ![POST handler](screenshots/
 
 c. /api/data: A mock API returning JSON data ![Mock API](screenshots/MockAPIreturningJSONdata.png)
 
