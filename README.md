@@ -90,10 +90,12 @@ Observe POST request and Form Data in Wireshark
 4. Test the API Endpoint
 
 Visit http://127.0.0.1:8080/api/data in your browser
+![API Return](screenshots/MockAPIreturningJSONdata.png)
 
 Observe the JSON response in cleartext
 
 Capture and analyze the HTTP response packet in Wireshark
+![Wireshark Capture API JSON](screenshots/Wireshark%20capture%20of%20API%20JSON%20response.png)
 
 
 5. Simulate Automated Attack
