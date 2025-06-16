@@ -157,6 +157,7 @@ All sensitive data in transit should be protected using HTTPS with a valid TLS/S
 
 ![Encrypted Traffic](screenshots/encryptedcredentials.png)   
 
+![TLS Handshake Packets](screenshots/TLShandshake.png)
 
 
 
