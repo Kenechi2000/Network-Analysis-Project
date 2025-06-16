@@ -137,20 +137,30 @@ Recommendation
 All sensitive data in transit should be protected using HTTPS with a valid TLS/SSL certificate. This ensures that data exchanged between clients and the server is encrypted and protected from interception.
 
 
-🔧 Practical Actions Taken
+🔧 Practical Actions Taken (With Screenshots 📸)
 
 1. A self-signed TLS certificate and private key were generated using OpenSSL for the simulated Flask environment.
+
+ ![Certificate and Key Generation](screenshots/Certificateandkeygeneration.png)
 
 
 2. The Flask application was configured to serve traffic over HTTPS (port 5000) using the generated certificates.
 
+ ![Configured Flask](screenshots/ConfiguredFlask.png)  
+
 
 3. A redirect was implemented to force all HTTP requests to HTTPS.
 
+![Flask HTTP Redirection](screenshots/FlaskHTTPredirection.png)
 
 4. Wireshark was used to confirm encrypted traffic and the presence of TLS handshake packets.
 
-📸 Screenshots
+![Encrypted Traffic](screenshots/encryptedcredentials.png)   
+
+
+
+
+
 
 
 
