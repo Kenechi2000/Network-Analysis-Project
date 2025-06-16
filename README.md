@@ -126,4 +126,35 @@ Issue    Description
 
 🤖 Scripted Access	Python scripts can bypass UI protections
 
-R
+## Recommendations ( With Practical Actions)
+
+🔐 Recommendation 1: Implement HTTPS with a Valid TLS Certificate
+
+Issue Identified
+During analysis, credentials were transmitted over plain HTTP. This exposes sensitive data (e.g., usernames and passwords) to interception by attackers via packet sniffing tools like Wireshark.
+
+Recommendation
+All sensitive data in transit should be protected using HTTPS with a valid TLS/SSL certificate. This ensures that data exchanged between clients and the server is encrypted and protected from interception.
+
+
+🔧 Practical Actions Taken
+
+1. A self-signed TLS certificate and private key were generated using OpenSSL for the simulated Flask environment.
+
+
+2. The Flask application was configured to serve traffic over HTTPS (port 5000) using the generated certificates.
+
+
+3. A redirect was implemented to force all HTTP requests to HTTPS.
+
+
+4. Wireshark was used to confirm encrypted traffic and the presence of TLS handshake packets.
+
+📸 Screenshots
+
+
+
+
+
+
+
