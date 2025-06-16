@@ -141,25 +141,38 @@ All sensitive data in transit should be protected using HTTPS with a valid TLS/S
 
 1. A self-signed TLS certificate and private key were generated using OpenSSL for the simulated Flask environment.
 
- ![✅ Certificate and Key Generation](screenshots/Certificateandkeygeneration.png)
+   ✅ Certificate and Key Generation
+
+ ![Certificate and Key Generation](screenshots/Certificateandkeygeneration.png)
 
 
 2. The Flask application was configured to serve traffic over HTTPS (port 5000) using the generated certificates.
 
- ![✅ Configured Flask](screenshots/ConfiguredFlask.png)  
+   ✅ Configured Flask
+
+ ![Configured Flask](screenshots/ConfiguredFlask.png)  
 
 
 3. A redirect was implemented to force all HTTP requests to HTTPS.
+   
+✅ Flask HTTP Redirection
 
-![✅ Flask HTTP Redirection](screenshots/FlaskHTTPredirection.png)
+![Flask HTTP Redirection](screenshots/FlaskHTTPredirection.png)
+
 
 4. Wireshark was used to confirm encrypted traffic and the presence of TLS handshake packets.
 
-![✅ Encrypted Traffic](screenshots/encryptedcredentials.png)   
+   ✅ Encrypted Traffic
 
-![✅ TLS Handshake Packets](screenshots/TLShandshake.png)
+![Encrypted Traffic](screenshots/encryptedcredentials.png)   
 
-![✅ TLS Handshake Info](screenshots/TLSHANDSHAKEINFO.png)
+✅ TLS Handshake Packets
+
+![TLS Handshake Packets](screenshots/TLShandshake.png)
+
+✅ TLS Handshake Info
+
+![TLS Handshake Info](screenshots/TLSHANDSHAKEINFO.png)
 
 
 ✅ Outcome
