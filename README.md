@@ -114,12 +114,16 @@ Suspicious client behavior (non-browser)
 Form payloads from automation tools
 ![Python Script Credentials](screenshots/Pythonscriptlogincredentials.png)
 
-🕵 Security Issues Identified
+## Security Issues Identified
 
-Issue	Description
+Issue    Description
 
 🔓 Clear Text Credentials	Username and password visible in HTTP POST
+
 🛑 Lack of TLS (HTTPS)	All data transmitted unencrypted
+
 ❌ No API Authentication	/api/data accessible without login
+
 🤖 Scripted Access	Python scripts can bypass UI protections
 
+R
