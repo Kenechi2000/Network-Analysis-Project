@@ -183,7 +183,17 @@ All network traffic is encrypted using TLS.
 
 The project now mimics a secure production environment for analysis and learning.
 
+## Blocking Python Scripts Filtering User-Agent
 
+Many Python scripts use default agents like:
+
+1. python-request/2.31.0
+2. curl/7.79.1
+
+![Wireshark Capture User-Agent](screenshots/Wireshark%20User-Agent%20Header.png)
+
+
+   
 
 
 
