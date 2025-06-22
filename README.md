@@ -183,7 +183,7 @@ All network traffic is encrypted using TLS.
 
 The project now mimics a secure production environment for analysis and learning.
 
-## Blocking Python Scripts Filtering User-Agent
+## Blocking Python Scripts by Filtering User-Agent
 
 Many Python scripts use default agents like:
 
@@ -191,6 +191,18 @@ Many Python scripts use default agents like:
 2. curl/7.79.1
 
 ![Wireshark Capture User-Agent](screenshots/Wireshark%20User-Agent%20Header.png)
+
+To block python login script, i implemented a basic bot-blocking technique using User-Agent Filtering.
+
+To see if this worked, i captured and decrypted HTTPS traffic using SSLKEYLOGFILE and Wireshark and confirmed the block by seeing 403 Forbidden in Wireshark.
+
+Screenshots
+
+Implementing User-Agent Filtering in the Flask app.py
+
+
+
+
 
 
    
