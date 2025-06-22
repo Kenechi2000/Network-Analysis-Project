@@ -32,9 +32,13 @@ This project demonstrates how attackers can exploit insecure HTTP traffic to int
 ##  Project Structure
 http-traffic-analysis/ 
 ├── app.py                 # Flask web server with login & API endpoint 
+
 ├── login_script.py        # Python script to send automated login POST request 
+
 ├── requirements.txt       # Flask & requests dependencies 
+
 ├── README.md              # Project documentation
+
 ├── screenshots/           # Screenshots used in the README
      
      
