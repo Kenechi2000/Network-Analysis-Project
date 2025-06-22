@@ -200,6 +200,31 @@ Screenshots
 
 Implementing User-Agent Filtering in the Flask app.py
 
+![User-Agent Flask Filter](screenshots/UserAgentFilter.png)
+
+SSLKEYLOGFILE Environment Variable 
+
+![SSLKEYLOGFILE Environment Variable](screenshots/SSLKEYLOGFILEFlask.png)
+
+POST Login request and 403 Forbideen 
+
+![POST login request and 403 Forbideen](screenshots/postloginerror403.png)
+
+Decrypted HTTP layer
+
+![Script Credentials](screenshots/decryptedtraffic.png)
+
+403 Forbideen Message
+
+![403 Forbideen](screenshots/error403.png)
+
+
+Observations
+
+HTTPS protects credentials in transit, but app-layer detection is needed to block scripted access.
+
+Tools like Wireshark + SSL key logging allow analyst to inspect HTTPS in controlled environments.
+
 
 
 
