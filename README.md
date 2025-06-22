@@ -196,30 +196,30 @@ To block python login script, i implemented a basic bot-blocking technique using
 
 To see if this worked, i captured and decrypted HTTPS traffic using SSLKEYLOGFILE and Wireshark and confirmed the block by seeing 403 Forbidden in Wireshark.
 
-Screenshots
+## Screenshots
 
-Implementing User-Agent Filtering in the Flask app.py
+## Implementing User-Agent Filtering in the Flask app.py
 
 ![User-Agent Flask Filter](screenshots/UserAgentFilter.png)
 
-SSLKEYLOGFILE Environment Variable 
+## SSLKEYLOGFILE Environment Variable 
 
 ![SSLKEYLOGFILE Environment Variable](screenshots/SSLKEYLOGFILEFlask.png)
 
-POST Login request and 403 Forbideen 
+## POST Login request and 403 Forbideen 
 
 ![POST login request and 403 Forbideen](screenshots/postloginerror403.png)
 
-Decrypted HTTP layer
+## Decrypted HTTP layer
 
 ![Script Credentials](screenshots/decryptedtraffic.png)
 
-403 Forbideen Message
+## 403 Forbideen Message
 
 ![403 Forbideen](screenshots/error403.png)
 
 
-Observations
+## Observations
 
 HTTPS protects credentials in transit, but app-layer detection is needed to block scripted access.
 
