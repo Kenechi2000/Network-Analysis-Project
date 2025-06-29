@@ -9,10 +9,9 @@ This project demonstrates how attackers can exploit insecure HTTP traffic to int
 - Used **Wireshark** to capture and analyze HTTP traffic from browser submissions and scripted attacks.
 - Simulated a **public API endpoint** to observe how attackers can target exposed services.
 - Developed a **Python login script** to mimic automated client behavior (commonly used in recon and brute force attacks).
-- Identified security vulnerabilities such as:
-- Credentials transmitted in clear text
-- Unauthenticated API access
-- Script-based requests (e.g., using `python-requests` User-Agent)
+- Identified security vulnerabilities such as: Credentials transmitted in clear text, Unauthenticated API access, Script-based requests (e.g., using `python-requests` User-Agent)
+- Upgraded the server to HTTPS Using a self-signed TLS certificate to encrypt communication.
+- Implemented basic request filtering on the server (User-Agent string detection) to block scripted requests (eg., curl, python)
 
 ## Objectives
 
@@ -20,6 +19,7 @@ This project demonstrates how attackers can exploit insecure HTTP traffic to int
 - Demonstrate the risks of transmitting sensitive data over HTTP.
 - Practice packet analysis from a SOC analyst perspective.
 - Simulate potential attacker behavior in a controlled environment.
+- Implement practical actions to restrict unauthorized access.
 
 ## Tools & Technologies
 
