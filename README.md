@@ -1,4 +1,4 @@
-# # HTTP Traffic Analysis using Wireshark & Python
+# # Cleartext to Cipher -- Web Traffic Security Analysis Project
 
 This project demonstrates how attackers can exploit insecure HTTP traffic to intercept sensitive data using tools like **Wireshark**. Since modern websites use HTTPS, this exercise simulates a vulnerable HTTP environment to study network traffic patterns, form submissions, and common security issues.
 
